@@ -1,0 +1,12 @@
+sever:
+  port: 8090
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  datasource:
+    url: https://chat-app-20103-default-rtdb.firebaseio.com
+    username: root
+    password:
+    driverClassName: com.mysql.jdbc.Driver
